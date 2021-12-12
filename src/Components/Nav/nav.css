@@ -1,0 +1,46 @@
+.n{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 50px;
+    background-color: darkslategray;
+}
+.n-l{
+    flex: 1;
+    height: 50px;
+    padding-left: 50px;
+}
+.n-r{
+    flex: 1;
+    padding-right: 50px;
+}
+
+.n-l-logo{
+    height: 50px;
+    animation: spin 5s  infinite forwards ;
+}
+@keyframes spin {
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+
+}
+.n-l-logo{
+    animation-timing-function: linear;
+}
+.n-l-logo:hover{
+    cursor: pointer;
+    animation-play-state: paused;
+}
+.n-r-ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.n-li{
+    list-style-type: none;
+    
+}
+.n-b{
+    height: 40px;
+}

@@ -1,0 +1,10 @@
+.pnf{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pnfi{
+    width: 500px;
+}
