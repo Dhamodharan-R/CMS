@@ -3,7 +3,9 @@
     align-items: center;
     justify-content:space-between;
     height: 50px;
-    background-color: darkslategray;
+    background-color: rgb(64, 7, 197);
+    position: sticky;
+    top: 0;
 }
 .n-l{
     flex: 1;
@@ -40,7 +42,8 @@
 .n-li{
     list-style-type: none;
     
+    
 }
-.n-b{
-    height: 40px;
+.lk{
+    color: white;
 }

@@ -14,11 +14,11 @@ function Nav() {
             <div className='n-r'>
                 <ul className='n-r-ul'>
 
-                    <li className='n-li'><button className='n-b'><Link to="/">Home</Link></button></li>
-                    <li className='n-li'><button className='n-b'><Link to="/posts">Posts</Link></button></li>
-                    <li className='n-li'><button className='n-b'><a href="https://dhamodharan-portfolio.netlify.app/">About</a></button></li>
-                    <li className='n-li'><button className='n-b'><Link to="/login">Login</Link></button></li>
-                    <li className='n-li'><button className='n-b'><Link to="/register">Register</Link></button></li>
+                    <li className='n-li'><Link className='lk' to="/">Home</Link></li>
+                    <li className='n-li'><Link className='lk' to="/posts">Posts</Link></li>
+                    <li className='n-li'><a className='lk' href="https://dhamodharan-portfolio.netlify.app/">About</a></li>
+                    <li className='n-li'><Link className='lk' to="/login">Login</Link></li>
+                    <li className='n-li'><Link className='lk' to="/register">Register</Link></li>
                    
                 </ul>
             </div>

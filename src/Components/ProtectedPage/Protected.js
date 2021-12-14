@@ -3,15 +3,15 @@ import {Outlet} from "react-router-dom"
 import Login from '../Login/Login'
 
 const userAuth = ()=>{
-    const token = localStorage.getItem("token")
-    console.log(token);
+    const token = sessionStorage.getItem("logintoken")
+    
     return token;
 }
 
 function Protected() {
 
     const isloggedin = userAuth();
-    console.log(isloggedin)
+    
     return isloggedin ? <Outlet/> : <Login/>
 }
 
