@@ -4,6 +4,7 @@ import axios from 'axios'
 import login from "../Images/login.jpg"
 import "./login.css"
 
+
 const url ="https://jsonplaceholderapi.herokuapp.com/users/login"
 
 function Login() {
@@ -14,6 +15,7 @@ function Login() {
         email:"",
         password:""
     })
+    
 
 
     const handleChange =({target:{name,value}})=>{
@@ -45,11 +47,14 @@ function Login() {
         sessionStorage.setItem("logintoken",data.Token);
         
         setmsg(data.message);
+        window.location.reload(true);
         }
         
         else if(data.error){
             console.log(data.error.details[0].message)
              setmsg(data.error.details[0].message); 
+            
+            
         } 
 
 
