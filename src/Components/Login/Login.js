@@ -47,6 +47,7 @@ function Login() {
         sessionStorage.setItem("logintoken",data.Token);
         
         setmsg(data.message);
+             window.location = window.location; 
         window.location.reload(true);
         }
         
