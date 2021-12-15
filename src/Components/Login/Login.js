@@ -47,8 +47,7 @@ function Login() {
         sessionStorage.setItem("logintoken",data.Token);
         
         setmsg(data.message);
-             window.location = window.location; 
-        window.location.reload(true);
+            
         }
         
         else if(data.error){
@@ -87,7 +86,7 @@ function Login() {
                         
                      </form>
                         <p className='l-nav'>Don't have an account? <Link to="/register"> Sign Up</Link> </p>
-                        <p className='lmsg'>{msg}</p>
+                        <p className='lmsg'>{msg}<a href=''>Go to posts </a></p>
                     </div>
                     
 
