@@ -4,3 +4,28 @@
     align-items: center;
     justify-content: center;
 }
+button:hover{
+    cursor: pointer;
+}
+
+.btn-delete{
+    background-color: crimson;
+    color: white;
+}
+.btn-update{
+    background-color:limegreen;
+    color: white;
+
+}
+.btn-view{
+    background-color:mediumblue;
+    
+}
+.l-v{
+    color: white;
+}
+
+.btn-s{
+    background-color: blueviolet;
+    color: white;
+}
