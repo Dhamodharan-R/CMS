@@ -41,7 +41,7 @@ function Login() {
         
         e.preventDefault();
 
-        const {data,} = await axios.post(url,state);
+        const {data} = await axios.post(url,state);
         console.log(data)
         if(data.Token){
         sessionStorage.setItem("logintoken",data.Token);
@@ -86,7 +86,7 @@ function Login() {
                         
                      </form>
                         <p className='l-nav'>Don't have an account? <Link to="/register"> Sign Up</Link> </p>
-                        <p className='lmsg'>{msg}<Link to="/posts">Go to posts</Link></p>
+                        //<p className='lmsg'>{msg}<Link to="/posts">Go to posts</Link></p>
                     </div>
                     
 
