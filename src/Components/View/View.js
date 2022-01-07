@@ -44,14 +44,7 @@ function View() {
             <p><b>Website:</b>{website}</p>
 
             </div>
-           /* <div className='v-p'>
-                <h2>Post Details</h2>
-                <p><b>Id :</b>{id} </p>
-                <p><b>UserID :</b>{userId} </p>
-                <p><b>Title :</b>{title} </p>
-                <p><b>Body :</b>{body}</p>
-
-            </div> */
+          
             <div className='v-c'>
 
 
